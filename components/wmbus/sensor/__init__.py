@@ -331,6 +331,13 @@ CONFIG_SCHEMA = cv.Schema(
             state_class=STATE_CLASS_TOTAL_INCREASING,
             icon="mdi:water",
         ),
+        cv.Optional("volume_flow_m3h"): sensor.sensor_schema(
+            accuracy_decimals=0,
+            unit_of_measurement=UNIT_LITER_PER_HOUR,
+            device_class=DEVICE_CLASS_WATER,
+            state_class=STATE_CLASS_MEASUREMENT,
+            icon="mdi:water",
+        ),
         cv.Optional("volume_flow_lh"): sensor.sensor_schema(
             accuracy_decimals=0,
             unit_of_measurement=UNIT_LITER_PER_HOUR,

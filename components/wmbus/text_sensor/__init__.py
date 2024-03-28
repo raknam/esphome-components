@@ -12,7 +12,7 @@ from .. import (
     wmbus_ns,
 )
 
-CODEOWNERS = ["@SzczepanLeon"]
+CODEOWNERS = ["@raknam"]
 
 AUTO_LOAD = ["wmbus"]
 

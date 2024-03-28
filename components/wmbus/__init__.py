@@ -31,7 +31,7 @@ CONF_WMBUS_ID = "wmbus_id"
 
 CONF_SYNC_MODE = "sync_mode"
 
-CODEOWNERS = ["@SzczepanLeon"]
+CODEOWNERS = ["@raknam"]
 
 DEPENDENCIES = ["time"]
 AUTO_LOAD = ["sensor", "text_sensor"]
